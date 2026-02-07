@@ -26,6 +26,21 @@ Or install directly:
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
+### Secure Installation (Recommended)
+
+For better security, download and review the installer before executing:
+
+```bash
+# Download the installer
+curl -fsSL https://openclaw.ai/install.sh -o /tmp/openclaw-install.sh
+
+# Review the script
+cat /tmp/openclaw-install.sh
+
+# Execute if satisfied
+bash /tmp/openclaw-install.sh
+```
+
 ## Manual Installation
 
 If you prefer to install manually:
